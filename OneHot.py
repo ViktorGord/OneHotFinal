@@ -1,5 +1,7 @@
 import random
-import pandas as pd
+import pandas as pd 
+#никак не удается импортировать panda - перепробовал все (уставливал "через" pip)
+#Но по идее если импорт panda будет корректный, все должно работать.
 lst = ['robot'] * 10
 lst += ['human'] * 10
 random.shuffle(lst)
